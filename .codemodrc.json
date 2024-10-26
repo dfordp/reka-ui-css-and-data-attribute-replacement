@@ -2,8 +2,9 @@
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "reka-ui-css-and-data-attribute-replacement",
   "version": "1.0.0",
-  "engine": "workflow",
+  "engine": "ast-grep",
   "private": false,
+  "entry": "src/rule.yaml",
   "arguments": [],
   "meta": {}
 }
