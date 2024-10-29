@@ -1,0 +1,14 @@
+id: "hello"
+language: Css
+rule:
+  kind: property_name
+  regex: --radix-accordion-content-width
+fix: --reka-accordion-content-width
+
+---
+id: "abc"
+language: Css
+rule:
+  kind: arguments
+  regex: --radix-accordion-content-width
+fix: --reka-accordion-content-width

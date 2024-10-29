@@ -1,10 +1,17 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "reka-ui-css-and-data-attribute-replacement",
-  "version": "1.0.0",
-  "engine": "ast-grep",
+  "version": "1.0.1",
+  "engine": "workflow",
   "private": false,
-  "entry": "src/rule.yaml",
   "arguments": [],
-  "meta": {}
+  "meta": {
+    "tags": [
+      "vue",
+      "radix",
+      "radix-vue v2"
+    ],
+    "git": "https://github.com/dfordp/reka-ui-css-and-data-attribute-replacement"
+  },
+  "entry": "src/rule.yaml"
 }

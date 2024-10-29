@@ -1,7 +1,7 @@
 :root {
     --radix-accordion-content-width: 300px; 
 }
-  
+
 [data-radix-collection-item] {
     width: var(--radix-accordion-content-width);
 }
